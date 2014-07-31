@@ -1,0 +1,25 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>{basename}</title>	
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script type="text/javascript" src="ZoomableImage.js"></script>
+</head>
+<body>
+    <div id="photo" style="width:{viewerwidth}px;height:{viewerheight}px;"></div>
+    <script type="text/javascript">
+		var map = L.map('photo', {
+			crs: L.CRS.Simple
+		}).setView(new L.LatLng(0, 0), 0);
+
+		L.tileLayer.zoomableImage('{basename}/{structure}', {
+			width: {imagewidth},
+			height: {imageheight},
+			tolerance: 0.8,
+			tileSize: {tilesize},
+			attribution: '<a href="http://www.graphicsmill.com/">Graphics Mill</a>'
+		}).addTo(map);
+    </script>
+</body>
+</html>
