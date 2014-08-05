@@ -324,8 +324,6 @@ namespace ZoomableImage
 	
 			ImageReader reader = null;
 
-			System.IO.MemoryMappedFiles.MemoryMappedFile memoryFile;
-
 			try
 			{
 				reader = ImageReader.Create(InputFilePath);
