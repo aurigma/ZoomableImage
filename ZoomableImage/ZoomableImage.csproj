@@ -28,11 +28,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aurigma.GraphicsMill, Version=7.0.40.388, Culture=neutral, PublicKeyToken=f4bbbf243f314012, processorArchitecture=AMD64">
+    <Reference Include="Aurigma.GraphicsMill, Version=7.1.76.404, Culture=neutral, PublicKeyToken=f4bbbf243f314012, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aurigma.GraphicsMill.Core.x86.7.0.40\lib\net40\Aurigma.GraphicsMill.dll</HintPath>
+      <HintPath>..\packages\Aurigma.GraphicsMill.Core.x86.7.1.76\lib\net40\Aurigma.GraphicsMill.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

@@ -4,3 +4,5 @@
 *.suo
 *.user
 /packages
+/VCRedist/vcredist_x86.exe
+/ZoomableImage.Setup/Output
