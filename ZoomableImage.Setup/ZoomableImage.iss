@@ -41,6 +41,8 @@ Source: "..\ZoomableImage.Win\bin\Release\ZoomableImage.js"; DestDir: "{app}"; F
 
 ;Graphics Mill files
 Source: "..\ZoomableImage.Win\bin\Release\Aurigma.GraphicsMill.dll"; DestDir: "{app}"; Flags: ignoreversion
+;You can download Visual C++ Redistributable Packages for Visual Studio 2013 here:
+;http://www.microsoft.com/en-us/download/confirmation.aspx?id=40784
 Source: "..\VCRedist\vcredist_x86.exe"; DestDir: "{tmp}"; Flags: ignoreversion
 
 [Icons]
