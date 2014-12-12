@@ -32,12 +32,15 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "..\ZoomableImage.Win\bin\Release\Aurigma.GraphicsMill.dll"; DestDir: "{app}"; Flags: ignoreversion
+;Application files
 Source: "..\ZoomableImage.Win\bin\Release\ZoomableImage.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\ZoomableImage.Win\bin\Release\ZoomableImage.Win.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\ZoomableImage.Win\bin\Release\ZoomableImage.Win.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\ZoomableImage.Win\bin\Release\viewer.htm"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\ZoomableImage.Win\bin\Release\ZoomableImage.js"; DestDir: "{app}"; Flags: ignoreversion
+
+;Graphics Mill files
+Source: "..\ZoomableImage.Win\bin\Release\Aurigma.GraphicsMill.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "..\VCRedist\vcredist_x86.exe"; DestDir: "{tmp}"; Flags: ignoreversion
 
 [Icons]
