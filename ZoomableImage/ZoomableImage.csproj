@@ -31,9 +31,9 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aurigma.GraphicsMill, Version=7.1.76.404, Culture=neutral, PublicKeyToken=f4bbbf243f314012, processorArchitecture=x86">
+    <Reference Include="Aurigma.GraphicsMill, Version=8.0.37.0, Culture=neutral, PublicKeyToken=f4bbbf243f314012, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Aurigma.GraphicsMill.Core.x86.7.1.76\lib\net40\Aurigma.GraphicsMill.dll</HintPath>
+      <HintPath>..\packages\Aurigma.GraphicsMill.Core.x86.8.0.37\lib\net40\Aurigma.GraphicsMill.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,15 +49,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="viewer.htm">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="ZoomableImage.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
