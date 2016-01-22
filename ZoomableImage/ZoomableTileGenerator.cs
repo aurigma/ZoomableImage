@@ -445,7 +445,7 @@ namespace ZoomableImage
 						}
 						else
 						{
-							resize = new Resize(zoomLevels[zoom].ImageWidth, zoomLevels[zoom].ImageHeight, ResizeInterpolationMode.Lanczos3);
+							resize = new Resize(zoomLevels[zoom].ImageWidth, zoomLevels[zoom].ImageHeight, ResizeInterpolationMode.Anisotropic9);
 							pipelineElements.Add(resize);
 							source.Receivers.Add(resize);
 						}
